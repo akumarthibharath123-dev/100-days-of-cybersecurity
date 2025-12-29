@@ -10,7 +10,8 @@ A 100-day structured cybersecurity learning challenge documenting daily progress
 
 ## 🗓️ Progress Tracker
 
-- Day 01 – Cybersecurity Fundamentals  
+- Day 00 – Cybersecurity Fundamentals
+- Day 01 - types of hacker  
 - Day 02 – IP Addressing & DNS  
 - Day 03 – WHOIS & OSINT  
 - Day 04 – Subdomain Enumeration  
