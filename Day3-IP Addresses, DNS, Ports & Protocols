@@ -1,0 +1,35 @@
+## Day 3 – IP Addresses, DNS, Ports & Protocols
+
+While analyzing suspicious login activity, I learned the importance of IP addresses in real-world investigations.
+
+### Topics Covered:
+- IPv4 and IPv6
+- Public vs Private IP ranges
+- Domain names and domain structure
+- DNS and its role in networking
+- Ports and common protocols
+
+### Why This Matters:
+Understanding these concepts helps in tracing attackers, identifying services running on a target system, and analyzing how systems communicate over the internet.
+  
+IPv4 Examples (32-bit)IPv4 addresses are written as four decimal numbers (0-255) separated by dots.
+  
+Home Router (Private): 192.168.1.1Localhost 
+  
+(Your own computer): 127.0.0.1Google 
+  
+Public DNS: 8.8.8.8Broadcast
+  
+Address: 255.255.255.255Cloudflare
+  
+DNS: 1.1.1.1IPv6 
+  
+Examples (128-bit)IPv6 addresses are written as eight groups of four hexadecimal characters (0-9 and a-f) separated by colons.
+  
+Full Standard Address:2001:0db8:85a3:0000:0000:8a2e:0370:7334Compressed Address:2001:db8:85a3::8a2e:370:7334
+  
+(Note: The double colon :: replaces the long string of zeros to make it shorter.)
+  
+Localhost (Your own computer): ::1Google Public DNS (IPv6): 2001:4860:4860::8888Link-Local Address: fe80::1ff:fe23:4567:890aVisual
+  
+ComparisonFeatureIPv4IPv6Example192.168.0.12001:db8::1234Format4 groups of numbers8 groups of hex digitsSeparatorDot (.)Colon (:)Total Addresses~4.3 billionUndecillion (340 trillion trillion trillion)
