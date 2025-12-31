@@ -1,0 +1,30 @@
+Day 4 – OSINT Using WHOIS Lookup
+
+Scenario:
+A crypto investment website promising unrealistic returns was analyzed to determine its legitimacy.
+
+Approach:
+A WHOIS lookup was conducted to extract domain-level intelligence.
+
+Information Identified:
+
+Domain registrar
+
+Hosting provider
+
+Domain registration & expiry dates
+
+Contact and ownership metadata
+
+Why WHOIS Matters:
+
+Acts as the first step in OSINT investigations
+
+Helps link multiple scam or phishing domains
+
+Assists in mapping scam networks
+
+Supports evidence preservation during investigations
+
+Outcome:
+This exercise demonstrated how basic domain intelligence can uncover deeper cybercrime infrastructure.
