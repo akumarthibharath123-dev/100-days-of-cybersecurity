@@ -1,0 +1,21 @@
+# 📅 Day 6: Web Archiving & Digital Forensics
+
+### 📝 Overview
+Today's focus was on **OSINT (Open Source Intelligence)** and recovering data from defunct or malicious websites. I explored how web archives serve as a "time machine" for digital investigations.
+
+### 🔍 Key Concept: Internet Permanence
+When a website is deleted from a server, it is often already indexed by archival crawlers.
+* **Tool:** The Wayback Machine (archive.org).
+* **Objective:** Retrieve content from a site that returns a 404 error.
+
+### 🛠️ Investigation Steps
+1.  **Target:** A (hypothetical) deleted scam website.
+2.  **Action:** Input the URL into the Wayback Machine.
+3.  **Navigation:** Selected dates prior to the reported takedown.
+4.  **Extraction:** Recovered HTML of "About Us" and "Pricing" pages.
+5.  **Result:** Preserved text and images used in the fraudulent campaign as evidence.
+
+### 🧠 Takeaway
+"Deleting" a website is often just removing the current pointer. The history remains stored in distributed archives. Always check archives during reconnaissance.
+
+---
