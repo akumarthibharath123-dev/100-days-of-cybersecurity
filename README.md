@@ -18,6 +18,7 @@ A 100-day structured cybersecurity learning challenge documenting daily progress
 - Day 05 – Reverse IP Lookup  
 - Day 6: Web Archiving & Digital Forensics
 - Days 7 & 8: Lab Setup & Physical Infrastructure Recon
+- Days 9 & 10: OpSec & Operating Systems
 
 ---
 
