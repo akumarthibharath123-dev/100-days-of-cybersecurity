@@ -1,0 +1,28 @@
+# 📅 Days 13 & 14: Linux Essentials & DVWA Setup
+
+### 🐧 Day 13: Essential Linux Commands
+**Objective:** Master terminal navigation and file manipulation.
+
+**Key Commands Log:**
+* **File Permissions:**
+    * `chmod 777 file.txt` (Read, Write, Execute for everyone - dangerous!)
+    * `chown user:group file.txt` (Change ownership).
+* **Searching:**
+    * `grep -r "password" /var/log/` (Recursive search for a string).
+    * `find / -name "*.conf"` (Locate configuration files).
+* **Network:**
+    * `ifconfig` / `ip a` (Check IP address).
+    * `netstat -tuln` (See open ports).
+
+### 🎯 Day 14: DVWA (Damn Vulnerable Web App)
+**Objective:** Install a local web application for penetration testing practice.
+**Tech Stack:** LAMP (Linux, Apache, MySQL, PHP).
+
+**Installation Steps (Debian/Kali):**
+1.  Install Apache & PHP: `sudo apt install apache2 php php-mysqli php-gd`
+2.  Install Database: `sudo apt install mariadb-server`
+3.  Clone DVWA: `git clone https://github.com/digininja/DVWA.git /var/www/html/dvwa`
+4.  Configure Database: Edited `/config/config.inc.php` to match DB credentials.
+5.  **Result:** Accessed via `http://localhost/dvwa`.
+
+---
