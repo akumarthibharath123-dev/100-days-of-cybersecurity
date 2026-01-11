@@ -1,0 +1,25 @@
+# 📅 Days 7 & 8: Lab Setup & Physical Infrastructure Recon
+
+### 📝 Overview
+This section covers the transition from establishing a personal testing ground to understanding the global physical layer of the internet.
+
+### 🛡️ Day 7: Building the Legal Hacking Lab
+**Objective:** Establish a controlled, isolated environment for ethical hacking practice.
+Key takeway: Professionals never test on live, unauthorized systems. We build sandboxes.
+
+**Tech Stack Explored:**
+* **Hypervisors:** VirtualBox / VMware (Type 2 hypervisors for running isolated OSs).
+* **Attacker Machine:** Kali Linux or Parrot OS.
+* **Victim Machine:** Metasploitable, OWASP Juice Shop (Docker container), or vulnhub VMs.
+* **Networking:** Configuring Host-Only or NAT networks to ensure vulnerable machines are not exposed to the actual internet.
+
+### 🌊 Day 8: Submarine Cables & Physical Infrastructure
+**Objective:** Understand OSI Layer 1 (Physical) on a global scale.
+Key takeaway: The internet is not a vague "cloud"; it is tangible hardware often located in vulnerable physical locations (ocean floors).
+
+**Concepts:**
+* **Submarine Cables:** The fiber optic backbone carrying >95% of transoceanic data.
+* **Physical Vulnerabilities:** Cable cutting (accidental by ships, or intentional sabotage), tapping points, and landing station security.
+* **Resources:** [Submarine Cable Map](https://www.submarinecablemap.com/) - Essential for visualizing global connectivity and choke points.
+
+---
