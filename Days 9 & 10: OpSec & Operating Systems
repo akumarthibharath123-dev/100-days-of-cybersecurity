@@ -1,0 +1,26 @@
+# 📅 Days 9 & 10: OpSec & Operating Systems
+
+### 📝 Overview
+These two days focused on the setup of the attacker's environment: ensuring anonymity (Day 9) and selecting the correct Operating System distribution (Day 10).
+
+### 👻 Day 9: Proxies & VPNs (Anonymity)
+**Objective:** Understand traffic masking and redirection.
+* **VPN (Virtual Private Network):** Encrypts all traffic leaving the device. Hides IP from the ISP and target.
+* **Proxy:** Intermediary server that forwards requests.
+    * *Forward Proxy:* Protects the client (user).
+    * *Reverse Proxy:* Protects the server.
+    * *Chaining:* Using multiple proxies (e.g., Proxychains) to complicate tracing.
+
+### 🐉 Day 10: Kali Linux vs. Parrot OS
+**Objective:** Compare distributions for Pentesting.
+
+| Feature | Kali Linux | Parrot Security OS |
+| :--- | :--- | :--- |
+| **Base** | Debian | Debian (Testing Branch) |
+| **Resources** | Heavy (GNOME/XFCE) | Lightweight (MATE) |
+| **Privacy** | Standard | Built-in "Anonsurf" module |
+| **Use Case** | Corporate Pentesting | Low-spec hardware / Privacy |
+
+**Decision:** I have set up [Insert your choice here, e.g., Kali Linux] as my primary driver for this 100-day challenge.
+
+---
