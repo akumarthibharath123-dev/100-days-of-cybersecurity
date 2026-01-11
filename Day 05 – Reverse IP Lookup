@@ -1,0 +1,24 @@
+# 📅 Day 5: Server-Side Reconnaissance & Shared Hosting Risks
+
+### 📝 Overview
+Today I focused on infrastructure analysis, specifically the risks associated with **Shared Hosting**. I learned that even if a target application is secure, the server it resides on might not be.
+
+### 🔍 Key Concept: The "Bad Neighbor" Effect
+On shared hosting environments, hundreds of websites often reside on a single IP address.
+* **Technique:** Reverse IP Lookup.
+* **Risk:** If one website on the server has a vulnerability (like an outdated plugin or weak upload verification), an attacker can compromise the server root and pivot to other "secure" websites hosted there.
+
+### 🛠️ Tools & Methodology
+* **Manual Check:** Used online Reverse IP lookup tools to map domains to a single IP.
+* **Automation:** Wrote a script to query DNS records and identify co-hosted domains.
+* **Mitigation:** Verified the importance of using VPS or Dedicated instances for critical applications to ensure isolation.
+
+### 🧠 Takeaway
+Security is not just about the code you write; it's about the environment where that code lives. Always check your neighbors.
+
+---
+
+
+
+
+
