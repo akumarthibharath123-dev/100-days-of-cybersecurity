@@ -1,0 +1,26 @@
+# 📅 Days 11 & 12: Privacy Tools & Network Scanners
+
+### 🧅 Day 11: Tor Browser Installation
+**Objective:** Establish an anonymized browsing environment.
+* **Concept:** Onion Routing (Traffic jumps through Entry -> Middle -> Exit nodes).
+* **Installation (Linux):**
+    ```bash
+    sudo apt update
+    sudo apt install tor torbrowser-launcher
+    torbrowser-launcher
+    ```
+* **Usage:** Accessing `.onion` hidden services and bypassing censorship.
+
+### 🗺️ Day 12: Nmap (Network Mapper)
+**Objective:** Install and run basic network scans.
+* **Concept:** Port Scanning (identifying open "doors" on a computer).
+* **Installation (Linux):**
+    ```bash
+    sudo apt install nmap
+    ```
+* **Key Flags:**
+    * `-sS`: SYN Scan (Stealthy, fast).
+    * `-sV`: Version Detection (Finds out what software version is running).
+    * `-O`: OS Detection (Guesses the operating system).
+
+---
