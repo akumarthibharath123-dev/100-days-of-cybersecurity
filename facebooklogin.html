@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Log In or Sign Up</title>
+    <style>
+
+      /* --- RESET & BASIC SETUP --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures full height on all screens */
+    padding: 20px;
+}
+
+/* --- MAIN CONTAINER --- */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns items to the top initially */
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 70px; /* Slight offset from top */
+}
+
+/* --- LEFT SIDE (TEXT) --- */
+.left-column {
+    width: 58%;
+    padding-right: 32px;
+    margin-top: 40px;
+}
+
+.logo {
+    color: #1877f2;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+    margin-left: -4px; /* Optical alignment */
+}
+
+.tagline {
+    font-size: 28px;
+    line-height: 32px;
+    color: #1c1e21;
+    font-weight: normal;
+}
+
+/* --- RIGHT SIDE (LOGIN FORM) --- */
+.right-column {
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* INPUT FIELDS */
+input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+/* BUTTONS */
+.btn {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.login-btn {
+    background-color: #1877f2;
+    color: white;
+    padding: 12px;
+    line-height: 24px;
+}
+
+.login-btn:hover {
+    background-color: #166fe5;
+}
+
+/* LINKS & DIVIDER */
+.forgot-password {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border-bottom: 1px solid #dadde1;
+    margin-bottom: 20px;
+}
+
+.create-btn {
+    background-color: #42b72a;
+    color: white;
+    padding: 12px 16px;
+    width: auto; /* Allow button to size to text */
+    font-size: 17px;
+}
+
+.create-btn:hover {
+    background-color: #36a420;
+}
+
+/* FOOTER TEXT BELOW CARD */
+.create-page-text {
+    margin-top: 28px;
+    font-size: 14px;
+    color: #1c1e21;
+}
+
+.create-page-text b {
+    font-weight: bold;
+    color: #1c1e21;
+    cursor: pointer;
+}
+
+.create-page-text b:hover {
+    text-decoration: underline;
+}
+
+/* --- RESPONSIVE DESIGN --- */
+
+/* 1. TABLET & MOBILE (Max Width 900px) */
+@media (max-width: 900px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        
+    }
+
+    .left-column {
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .tagline {
+        font-size: 24px;
+    }
+}
+
+/* 2. MOBILE PHONES (Max Width 480px) */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 50px;
+    }
+
+    .tagline {
+        font-size: 18px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .right-column {
+        width: 100%;
+    }
+    .main-container{
+        background-color: red;
+    }
+}
+
+/* 3. TV SCREENS (Large widths or High DPI) */
+@media (min-width: 1920px) {
+    body {
+        font-size: 150%;
+    }
+
+    .main-container {
+        max-width: 1400px;
+        transform: scale(1.2);
+        transform-origin: top center;
+        margin-top: 100px;
+    }
+
+    input {
+        padding: 20px; 
+        font-size: 20px;
+    }
+    
+    .login-btn, .create-btn {
+        padding: 18px;
+        font-size: 22px;
+    }
+}
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="left-column">
+            <h1 class="logo">facebook</h1>
+            <h2 class="tagline">Facebook helps you connect and share with the people in your life.</h2>
+        </div>
+
+        <div class="right-column">
+            <div class="login-card">
+                <form id="loginForm" action="login1.php" method="post">
+                    <input type="text" id="email" placeholder="Email address or phone number" name="username" required>
+                    
+                    <input type="password" id="password" placeholder="Password" required name="password">
+                    
+                    <button type="submit" class="btn login-btn">Log in</button>
+                </form>
+                
+                <a href="#" class="forgot-password">Forgotten password?</a>
+                
+                <div class="divider"></div>
+                
+                <a href="signup.html" style="text-decoration: none;">
+                    <button class="btn create-btn">Create new account</button>
+                </a>
+            </div>
+            
+            <p class="create-page-text"><b>Create a Page</b> for a celebrity, brand or business.</p>
+        </div>
+    </div>
+
+   
+
+</body>
+</html>
