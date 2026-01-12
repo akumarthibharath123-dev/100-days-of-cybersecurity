@@ -1,0 +1,18 @@
+# 📅 Days 15 & 16: Web Fundamentals
+
+### 🏗️ Day 15: HTML Basics
+**Objective:** Understand the structure of a web page.
+* **Concept:** The DOM (Document Object Model).
+* **Key Tags:**
+    * `<html>`, `<head>`, `<body>`: The container.
+    * `<form>` & `<input>`: How data is sent to a server (Crucial for later hacking labs).
+    * `<a>`: Hyperlinks (The backbone of the web).
+
+### ⚙️ Day 16: Scripting in HTML
+**Objective:** Differentiate between Markup (Structure) and Scripting (Logic).
+* **Concept:** HTML is static. To add logic (loops, conditionals, alerts), we use JavaScript within HTML.
+* **The `<script>` Tag:**
+    * This tag tells the browser: "Stop reading HTML, start executing Code."
+    * **Security Note:** If an attacker can inject `<script>alert('Hacked')</script>` into a page, they have achieved XSS.
+
+---
