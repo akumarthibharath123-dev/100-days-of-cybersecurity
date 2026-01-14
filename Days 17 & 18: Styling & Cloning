@@ -1,0 +1,21 @@
+# 📅 Days 17 & 18: Styling & Cloning
+
+### 🎨 Day 17: CSS Fundamentals
+**Objective:** Master layout and styling to create professional-looking interfaces.
+* **Concepts:**
+    * **Selectors:** Classes (`.btn`) vs IDs (`#login`). Crucial for targeting elements.
+    * **Flexbox:** Used `display: flex; justify-content: center; align-items: center;` to center the main card.
+    * **The Box Model:** Padding (internal space) vs Margin (external space).
+
+### 🎣 Day 18: Project - Instagram Login Clone
+**Objective:** Create a visual replica of the Instagram login page for educational phishing analysis.
+**Tech Stack:** HTML5, CSS3.
+
+**Key Challenges Solved:**
+1.  **The Logo:** Using the specific `font-family` or image asset for branding.
+2.  **Input Fields:** Styling the border radius and background color (`#fafafa`) to match the official site.
+3.  **Responsiveness:** Using `@media` queries to remove the border on mobile screens (just like the real app).
+
+**Note:** This is a frontend-only project (or connected to a local lab backend). Do not host this on the public web.
+
+---
