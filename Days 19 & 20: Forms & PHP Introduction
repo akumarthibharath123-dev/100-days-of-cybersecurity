@@ -1,0 +1,18 @@
+# 📅 Days 19 & 20: Forms & PHP Introduction
+
+### 📝 Day 19: HTML Forms
+**Objective:** Create the interface for data entry.
+**Key Attributes:**
+* `action="handler.php"`: Tells the form where to send the data.
+* `method="POST"`: Sends data securely (invisible in URL).
+* `name="username"`: The label the PHP script will look for.
+
+### 🐘 Day 20: PHP Basics
+**Objective:** Introduction to Server-Side Scripting.
+**Concepts:**
+* **Tags:** PHP code lives inside `<?php` and `?>`.
+* **Variables:** Must start with `$`. Example: `$username = "Admin";`.
+* **Output:** `echo` is used to print text back to the HTML page.
+* **Strictness:** Every line must end with a semicolon `;` (or the site breaks!).
+
+---
