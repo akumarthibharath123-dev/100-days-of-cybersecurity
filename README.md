@@ -21,7 +21,9 @@ A 100-day structured cybersecurity learning challenge documenting daily progress
 - Days 9 & 10: OpSec & Operating Systems
 - Days 11 & 12: Privacy Tools & Network Scanners
 - Days 13 & 14: Linux Essentials & DVWA Setup
--  Days 15 & 16: Web Fundamentals
+- Days 15 & 16: Web Fundamentals
+- Days 17 & 18: Styling & Cloning
+- Days 19 & 20: Forms & PHP Introduction
 
 ---
 
