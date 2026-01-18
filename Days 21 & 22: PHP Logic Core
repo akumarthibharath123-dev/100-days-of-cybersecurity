@@ -1,0 +1,20 @@
+# 📅 Days 21 & 22: PHP Logic Core
+
+### 📦 Day 21: Variables & Functions
+**Objective:** Manage data and organize code.
+* **Variables:**
+    * Syntax: `$count = 10;`
+    * Scope: Understanding Global vs Local variables inside functions.
+* **Functions:**
+    * Defining: `function sayHello($name) { ... }`
+    * Returning values: `return $result;` (Crucial for passing data back).
+
+### 🚦 Day 22: Control Structures & Arrays
+**Objective:** Make decisions and manage lists.
+* **Conditionals:**
+    * `if ($password == "123") { echo "Weak"; }`
+* **Arrays:**
+    * **Indexed:** `$colors = array("Red", "Blue");` -> Access via `$colors[0]`
+    * **Associative:** `$user = array("name"=>"John", "role"=>"Admin");` -> Access via `$user["role"]`
+
+---
