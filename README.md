@@ -24,6 +24,8 @@ A 100-day structured cybersecurity learning challenge documenting daily progress
 - Days 15 & 16: Web Fundamentals
 - Days 17 & 18: Styling & Cloning
 - Days 19 & 20: Forms & PHP Introduction
+- Days 21 & 22: PHP Logic Core
+- Days 23 & 24: Loops & HTTP State
 
 ---
 
