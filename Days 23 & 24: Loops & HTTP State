@@ -1,0 +1,19 @@
+# 📅 Days 23 & 24: Loops & HTTP State
+
+### 🔄 Day 23: Loops
+**Objective:** Automate repetitive tasks.
+**Types:**
+* `while ($x < 10) { ... }`: Runs *while* a condition is true.
+* `for ($i=0; $i<10; $i++) { ... }`: Runs a specific number of times.
+* `foreach ($array as $value) { ... }`: The best way to read lists/arrays.
+
+### 🍪 Day 24: Cookies & Sessions
+**Objective:** Maintain user login status.
+**Key Functions:**
+* `setcookie("user", "Alex", time() + 3600);`: Saves data in the browser for 1 hour.
+* `session_start();`: Must be at the *very top* of the script to use sessions.
+* `$_SESSION["username"] = "Admin";`: Saves data on the server.
+
+**Security Note:** Never store passwords in Cookies!
+
+---
