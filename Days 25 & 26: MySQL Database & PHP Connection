@@ -1,0 +1,19 @@
+# 📅 Days 25 & 26: MySQL Database & PHP Connection
+
+### 🛢️ Day 25: MySQL Basics
+**Objective:** Understand how to structure persistent data.
+**Key SQL Commands:**
+* `CREATE DATABASE instagram_clone;`: Makes a new container.
+* `CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(50));`: Defines the structure.
+* `INSERT INTO users (username) VALUES ('admin_user');`: Adds data.
+* `SELECT * FROM users;`: Retrieves data.
+
+### 🔗 Day 26: Connecting PHP to MySQL
+**Objective:** Enable PHP to talk to the database.
+**Technology Used:** The `mysqli` (MySQL Improved) extension in PHP.
+**Critical Steps:**
+1. Define server credentials (host, user, pass, db name).
+2. Create a connection object.
+3. **ALWAYS** check if the connection failed before proceeding.
+
+---
