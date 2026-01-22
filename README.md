@@ -26,6 +26,7 @@ A 100-day structured cybersecurity learning challenge documenting daily progress
 - Days 19 & 20: Forms & PHP Introduction
 - Days 21 & 22: PHP Logic Core
 - Days 23 & 24: Loops & HTTP State
+- Days 25 & 26: MySQL Database & PHP Connection
 
 ---
 
